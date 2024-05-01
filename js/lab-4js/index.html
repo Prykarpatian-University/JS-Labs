@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Library Demo</title>
+</head>
+<body>
+    <script src="./sort.js"></script>
+    <script>
+        const array1 = [5, 9, 3, 1, 8, 4, 2, 7, 6]; 
+        const array2 = [5, 9, undefined, 1, undefined, 8, 4, undefined, 2, 7, 6]; 
+
+        console.log("Original Array 1:", array1);
+        console.log("Original Array 2:", array2);
+
+        SortingLibrary.exchangeSort([...array1], 'asc');
+        SortingLibrary.minSort([...array1], 'asc');
+        SortingLibrary.insertionSort([...array1], 'asc');
+        SortingLibrary.shellSort([...array1], 'asc');
+        SortingLibrary.quickSort([...array1], 'asc');
+
+        SortingLibrary.exchangeSort([...array2], 'desc');
+        SortingLibrary.minSort([...array2], 'desc');
+        SortingLibrary.insertionSort([...array2], 'desc');
+        SortingLibrary.shellSort([...array2], 'desc');
+        SortingLibrary.quickSort([...array2], 'desc');
+    </script>
+</body>
+</html>
