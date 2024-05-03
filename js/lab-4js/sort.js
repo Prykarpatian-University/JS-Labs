@@ -111,5 +111,3 @@ const SortingLibrary = {
         console.log(`Quick Sort: Comparisons: ${comparisons}, Swaps: ${swaps}`);
     }
 };
-
-export default SortingLibrary;
