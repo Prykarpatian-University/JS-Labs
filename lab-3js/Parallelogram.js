@@ -6,29 +6,29 @@ class Parallelogram extends Rectangle {
     }
 
     static help() {
-        console.log("A parallelogram is a quadrilateral in which opposite sides are parallel and equal to each other.");
+        console.log("Паралелограм - це чотирикутник, у якому протилежні сторони паралельні та рівні між собою.");
     }
 
     length() {
-        console.log("Perimeter of parallelogram: " + (2 * (this.a + this.b)));
+        console.log("Периметр паралелограма: " + (2 * (this.a + this.b)));
     }
 
     square() {
-        console.log("Parallelogram area: " + (this.a * this.b * Math.sin(this.alpha * Math.PI / 180)));
+        console.log("Площа паралелограма: " + (this.a * this.b * Math.sin(this.alpha * Math.PI / 180)));
     }
 
     info() {
-        console.log("Parallelogram characteristic:");
-        console.log("Side length: a = " + this.a + ", b = " + this.b);
-        console.log("Obtuse angle: " + this.alpha + " градусів");
-        console.log("Acute angle: " + this.beta + " градусів");
+        console.log("Характеристики паралелограма:");
+        console.log("Довжина сторін: a = " + this.a + ", b = " + this.b);
+        console.log("Тупий кут: " + this.alpha + " градусів");
+        console.log("Гострий кут: " + this.beta + " градусів");
         console.log("Периметр: " + (2 * (this.a + this.b)));
         console.log("Площа: " + (this.a * this.b * Math.sin(this.alpha * Math.PI / 180)));
     }
 }
 
-const parallelogram = new Parallelogram(5, 7, 120, 60);
-Parallelogram.help();
-parallelogram.length();
-parallelogram.square();
-parallelogram.info();
+Parallelogram.help(); // Виклик статичного методу
+const myParallelogram = new Parallelogram(5, 7, 120, 60);
+myParallelogram.length();
+myParallelogram.square();
+myParallelogram.info();
