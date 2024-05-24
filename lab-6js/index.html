@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+<h1 class="game-title">Game</h1>
+<label class="game-select" for="level">Select Level:</label>
+<select class="levels" id="level">
+  <option value="levelA">Level A</option>
+  <option value="levelB">Level B</option>
+  <option value="levelC">Level C</option>
+</select>
+<div class="grid-container">
+  <div class="grid"></div>
+</div>
+<div class="button-container">
+  <button id="resetButton">Reset</button>
+</div>
+
+<div class="info-container">
+  
+  <p>Timer: <span id="timer">0</span> seconds</p>
+  <p>Clicks: <span id="clicks">0</span></p>
+  <p>Minimum Steps: <span id="minSteps">-</span></p>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

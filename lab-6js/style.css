@@ -1,0 +1,49 @@
+.game-title{
+display: flex;
+justify-content: center;
+}
+
+.game-select{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.levels{
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+    grid-template-rows: repeat(5, 40px);
+    gap: 2px;
+    margin: 20px auto;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+.info-container{
+    display: flex;
+justify-content: center;
+gap: 30px;
+}
+
+.cell {
+    background-color: #dad5d5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cell.on {
+    background-color: rgb(232, 75, 32);
+}
