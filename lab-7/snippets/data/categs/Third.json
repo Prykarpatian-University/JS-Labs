@@ -1,0 +1,69 @@
+{
+  "catalog_items": [
+    {
+      "id": 31,
+      "short_name": "Third-1",
+      "name": "Item Third-1",
+      "description": "One",
+      "price_retail": 99,
+      "price_wholesale": 189.0,
+      "amount_retail": null,
+      "amount_wholesale": "5"
+    },
+    {
+      "id": 32,
+      "short_name": "Third-2",
+      "name": "Item Third-2",
+      "description": "Two",
+      "price_retail": 69,
+      "price_wholesale": 998,
+      "amount_retail": "1+ pos",
+      "amount_wholesale": "3"
+    },
+    {
+      "id": 33,
+      "short_name": "Third-3",
+      "name": "Item Third-3",
+      "description": "Three",
+      "price_retail": 123,
+      "price_wholesale": 705,
+      "amount_retail": "1+ pos",
+      "amount_wholesale": "7"
+    },
+    {
+      "id": 34,
+      "short_name": "Third-4",
+      "name": "Item Third-4",
+      "description": "Four",
+      "price_retail": 228,
+      "price_wholesale": 509,
+      "amount_retail": "1+ pos",
+      "amount_wholesale": "5"
+    },
+    {
+      "id": 35,
+      "short_name": "Third-5",
+      "name": "Item Third-5",
+      "description": "Five",
+      "price_retail": 100,
+      "price_wholesale": 1500,
+      "amount_retail": "1+ pos",
+      "amount_wholesale": "5"
+    },
+    {
+      "id": 36,
+      "short_name": "Third-6",
+      "name": "Item Third-6",
+      "description": "Six",
+      "price_retail": 99,
+      "price_wholesale": 1009,
+      "amount_retail": "1+ pos",
+      "amount_wholesale": "5"
+    }
+  ],
+  "category": {
+    "short_name": "Third",
+    "name": "Category Third",
+    "special_instructions": "Some really important info about Third category."
+  }
+}

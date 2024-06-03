@@ -1,0 +1,59 @@
+{
+  "catalog_items": [
+    {
+      "id": 21,
+      "short_name": "Second-1",
+      "name": "Item Second-1",
+      "description": "One",
+      "price_retail": 129,
+      "price_wholesale": 199.0,
+      "amount_retail": null,
+      "amount_wholesale": "8"
+    },
+    {
+      "id": 22,
+      "short_name": "Second-2",
+      "name": "Item Second-2",
+      "description": "Two",
+      "price_retail": 79,
+      "price_wholesale": 1098,
+      "amount_retail": "2+ pos",
+      "amount_wholesale": "4"
+    },
+    {
+      "id": 23,
+      "short_name": "Second-3",
+      "name": "Item Second-3",
+      "description": "Three",
+      "price_retail": 143,
+      "price_wholesale": 805,
+      "amount_retail": "2+ pos",
+      "amount_wholesale": "6"
+    },
+    {
+      "id": 24,
+      "short_name": "Second-4",
+      "name": "Item Second-4",
+      "description": "Four",
+      "price_retail": 248,
+      "price_wholesale": 609,
+      "amount_retail": "2+ pos",
+      "amount_wholesale": "7"
+    },
+    {
+      "id": 25,
+      "short_name": "Second-5",
+      "name": "Item Second-5",
+      "description": "Five",
+      "price_retail": 120,
+      "price_wholesale": 1600,
+      "amount_retail": "2+ pos",
+      "amount_wholesale": "4"
+    }
+  ],
+  "category": {
+    "short_name": "Second",
+    "name": "Category Second",
+    "special_instructions": "Some different important info about Second category."
+  }
+}
