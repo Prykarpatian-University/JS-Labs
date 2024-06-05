@@ -4,22 +4,22 @@ class Square {
     }
 
     static help() {
-        console.log("A square is a quadrilateral with four equal sides and four equal angles (each of 90 degrees");
+        console.log("Квадрат - це чотирикутник з чотирма рівними сторонами та чотирма рівними кутами (по 90 градусів кожен).");
     }
 
     length() {
-        console.log("The sum of the lengths of all four sides " + 4 * this.a);
+        console.log("Сума довжин усіх чотирьох сторін: " + 4 * this.a);
     }
 
     square() {
-        console.log("The area of the square: " + Math.pow(this.a, 2));
+        console.log("Площа квадрата: " + Math.pow(this.a, 2));
     }
 
     info() {
-        console.log("Characteristic of square:");
-        console.log("The length of the side: " + this.a);
-        console.log("sum of side length: " + 4 * this.a);
-        console.log("Area: " + Math.pow(this.a, 2));
+        console.log("Характеристики квадрата:");
+        console.log("Довжина сторони: " + this.a);
+        console.log("Сума довжин сторін: " + 4 * this.a);
+        console.log("Площа: " + Math.pow(this.a, 2));
     }
 }
 

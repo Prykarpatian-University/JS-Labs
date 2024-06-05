@@ -6,24 +6,24 @@ class Rhombus extends Square {
     }
 
     static help() {
-        console.log("A rhombus is a quadrilateral with all sides of equal length and opposite angles equal to each other");
+        console.log("Ромб - це чотирикутник з усіма сторонами однакової довжини та протилежні кути рівні між собою.");
     }
 
     length() {
-        console.log("The sum of the lengths of all four sides: " + (4 * this.a));
+        console.log("Сума довжин усіх чотирьох сторін: " + (4 * this.a));
     }
 
     square() {
-        console.log("Rhombus area: " + (Math.pow(this.a, 2) * Math.sin(this._alpha * Math.PI / 180)));
+        console.log("Площа ромба: " + (Math.pow(this.a, 2) * Math.sin(this._alpha * Math.PI / 180)));
     }
 
     info() {
-        console.log("Rhombus characteristic:");
-        console.log("Rhombus length: " + this.a);
-        console.log("Obtuse angle: " + this._alpha + " градусів");
-        console.log("Acute angle: " + this._beta + " градусів");
-        console.log("Sum of side length: " + (4 * this.a));
-        console.log("Area: " + (Math.pow(this.a, 2) * Math.sin(this._alpha * Math.PI / 180)));
+        console.log("Характеристики ромба:");
+        console.log("Довжина сторони: " + this.a);
+        console.log("Тупий кут: " + this._alpha + " градусів");
+        console.log("Гострий кут: " + this._beta + " градусів");
+        console.log("Сума довжин сторін: " + (4 * this.a));
+        console.log("Площа: " + (Math.pow(this.a, 2) * Math.sin(this._alpha * Math.PI / 180)));
     }
 
     get a() {

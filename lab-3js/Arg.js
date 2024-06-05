@@ -1,34 +1,23 @@
-class Parallelogram extends Rectangle {
-    constructor(a, b, alpha, beta) {
-        super(a, b);
-        this.alpha = alpha;
-        this.beta = beta;
-    }
-
-    static help() {
-        console.log("A parallelogram is a quadrilateral in which opposite sides are parallel and equal to each other.");
-    }
-
-    length() {
-        console.log("Perimeter of parallelogram: " + (2 * (this.a + this.b)));
-    }
-
-    square() {
-        console.log("Parallelogram area: " + (this.a * this.b * Math.sin(this.alpha * Math.PI / 180)));
-    }
-
-    info() {
-        console.log("Parallelogram characteristic:");
-        console.log("Side length: a = " + this.a + ", b = " + this.b);
-        console.log("Obtuse angle: " + this.alpha + " градусів");
-        console.log("Acute angle: " + this.beta + " градусів");
-        console.log("Perimeter: " + (2 * (this.a + this.b)));
-        console.log("Area: " + (this.a * this.b * Math.sin(this.alpha * Math.PI / 180)));
-    }
+function Triangular(a = 3, b = 4, c = 5) {
+    return { a, b, c };
 }
 
-const parallelogram = new Parallelogram(5, 7, 120, 60);
-Parallelogram.help();
-parallelogram.length();
-parallelogram.square();
-parallelogram.info();
+const triangle1 = Triangular();
+const triangle2 = Triangular(6, 8, 10);
+const triangle3 = Triangular(9, 12, 15);
+console.log(triangle1);
+console.log(triangle2);
+console.log(triangle3);
+
+function PiMultiplier(number) {
+    return function() {
+        return Math.PI * number;
+    };
+}
+
+const multiplyBy2Pi = PiMultiplier(2);
+const multiplyBy3HalfPi = PiMultiplier(1.5);
+const divideBy2Pi = PiMultiplier(0.5);
+console.log(multiplyBy2Pi());
+console.log(multiplyBy3HalfPi());
+console.log(divideBy2Pi());

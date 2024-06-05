@@ -6,7 +6,7 @@ class Parallelogram extends Rectangle {
     }
 
     static help() {
-        console.log("Паралелограм - це чотирикутник, у якому протилежні сторони паралельні та рівні між собою.");
+        console.log("Паралелограм - це чотирикутник, у якого протилежні сторони паралельні та рівні між собою.");
     }
 
     length() {
@@ -27,8 +27,8 @@ class Parallelogram extends Rectangle {
     }
 }
 
-Parallelogram.help(); // Виклик статичного методу
-const myParallelogram = new Parallelogram(5, 7, 120, 60);
-myParallelogram.length();
-myParallelogram.square();
-myParallelogram.info();
+const parallelogram = new Parallelogram(5, 7, 120, 60);
+Parallelogram.help();
+parallelogram.length();
+parallelogram.square();
+parallelogram.info();
